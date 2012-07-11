@@ -55,44 +55,55 @@ body {
 }
 
 .row-fluid .first-child {
-  margin-left: 0;
+	margin-left: 0;
 }
 
-input {
-	width: auto;
-	height: auto;
-	padding: 0;
-	margin: 3px 0;
-	*margin-top: 0;
-	border: 0;
+.offset12 {
+	margin-left: 980px;
 }
 
-select {
-	height: auto;
+.offset11 {
+	margin-left: 900px;
 }
 
-.radio input,
-.checkbox input {
-	float: left;
-	margin-left: -18px;
+.offset10 {
+	margin-left: 820px;
 }
 
-.input-mini,
-.input-small,
-.input-medium,
-.input-large,
-.input-xlarge,
-.input-xxlarge {
-	display: inline-block;
-	*display: inline;
-	zoom: 1;
-	vertical-align: middle;
-	line-height: 18px;
-	height: 18px;
-	padding: 4px;
-	margin: 0;
-	margin-bottom: 9px;
-	border: 1px solid #bfbfbf;
+.offset9 {
+	margin-left: 740px;
+}
+
+.offset8 {
+	margin-left: 660px;
+}
+
+.offset7 {
+	margin-left: 580px;
+}
+
+.offset6 {
+	margin-left: 500px;
+}
+
+.offset5 {
+	margin-left: 420px;
+}
+
+.offset4 {
+	margin-left: 340px;
+}
+
+.offset3 {
+	margin-left: 260px;
+}
+
+.offset2 {
+	margin-left: 180px;
+}
+
+.offset1 {
+	margin-left: 100px;
 }
 
 .nav-collapse {
@@ -311,14 +322,14 @@ select {
 }
 
 .nav-tabs .active {
-	background-color: #fff;
+	background-color: transparent;
 }
 
 .nav-tabs .active a,
 .nav-tabs .active a:hover {
 	color: #555;
 	cursor: default;
-	background-color: #fff;
+	background-color: transparent;
 	border: 1px solid #ddd;
 }
 
@@ -376,11 +387,24 @@ select {
 	background-color: #222222;
 }
 
+.well .nav li a {
+	display: block;
+}
+
+.breadcrumb .active {
+	background-color: transparent;
+}
+
 .btn {
 	font-size: 12px;
 	line-height: 18px;
-	padding: 2px 8px;
+	padding: 4px 10px;
 	border: 1px solid #bfbfbf;
+}
+
+.btn .caret {
+	height: 4px;
+	overflow: hidden;
 }
 
 .btn-large {
@@ -401,6 +425,7 @@ select {
 
 .btn-group .active {
 	z-index: 2;
+	background-color: #ccc;
 }
 
 .btn-group .dropdown-toggle {
@@ -408,7 +433,101 @@ select {
 	padding-right: 8px;
 	*padding-bottom: 4px;
 	padding-left: 8px;
-	font-size: 0;
+}
+
+.dropdown-menu li,
+.dropdown-menu li a {
+	display: block;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu .active a,
+.dropdown-menu .active a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #0088cc;
+}
+
+.open .dropdown-menu {
+	display: block;
+}
+
+.pull-right .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+input {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 3px 0;
+	*margin-top: 0;
+	border: 0;
+}
+
+select {
+	height: auto;
+}
+
+.radio input,
+.checkbox input {
+	float: left;
+	margin-left: -18px;
+}
+
+.input-mini,
+.input-small,
+.input-medium,
+.input-large,
+.input-xlarge,
+.input-xxlarge {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+	line-height: 18px;
+	height: 18px;
+	padding: 4px;
+	margin: 0;
+	margin-bottom: 9px;
+	border: 1px solid #bfbfbf;
+}
+
+input.span12,
+textarea.span12,
+input.span11,
+textarea.span11,
+input.span10,
+textarea.span10,
+input.span9,
+textarea.span9,
+input.span8,
+textarea.span8,
+input.span7,
+textarea.span7,
+input.span6,
+textarea.span6,
+input.span5,
+textarea.span5,
+input.span4,
+textarea.span4,
+input.span3,
+textarea.span3,
+input.span2,
+textarea.span2,
+input.span1,
+textarea.span1 {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	line-height: 18px;
+	height: 18px;
+	padding: 4px;
+	margin: 0;
+	margin-bottom: 9px;
+	border: 1px solid #bfbfbf;
 }
 
 .thumbnails li {
