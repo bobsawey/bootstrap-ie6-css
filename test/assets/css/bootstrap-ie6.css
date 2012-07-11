@@ -311,14 +311,14 @@ select {
 }
 
 .nav-tabs .active {
-	background-color: #fff;
+	background-color: transparent;
 }
 
 .nav-tabs .active a,
 .nav-tabs .active a:hover {
 	color: #555;
 	cursor: default;
-	background-color: #fff;
+	background-color: transparent;
 	border: 1px solid #ddd;
 }
 
@@ -376,10 +376,14 @@ select {
 	background-color: #222222;
 }
 
+.breadcrumb .active {
+	background-color: transparent;
+}
+
 .btn {
 	font-size: 12px;
 	line-height: 18px;
-	padding: 2px 8px;
+	padding: 4px 10px;
 	border: 1px solid #bfbfbf;
 }
 
@@ -401,6 +405,7 @@ select {
 
 .btn-group .active {
 	z-index: 2;
+	background-color: #ccc;
 }
 
 .btn-group .dropdown-toggle {

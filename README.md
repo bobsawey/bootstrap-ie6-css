@@ -8,7 +8,13 @@ IE6 CSS fix for Twitter Bootstrap.
 
 ```html
 <!--[if IE 6]>
-<link href="bootstrap-ie6.css" rel="stylesheet">
+<link href="assets/css/bootstrap-ie6.css" rel="stylesheet">
+<script src="assets/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+	$('[class^="icon-"]').each(function() {
+		DD_belatedPNG.fixPng(this);
+	});
+</script>
 <![endif]-->
 ```
 
