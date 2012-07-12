@@ -6,6 +6,8 @@ Twitter Bootstrap shim for IE6.
 
 ## Usage
 
+Insert the following code fragment into your page.
+
 ```html
 <!--[if IE 6]>
 <link href="bootstrap-ie6.css" rel="stylesheet">
