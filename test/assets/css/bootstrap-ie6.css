@@ -29,8 +29,7 @@ body {
 .span2,
 .span1 {
 	margin-left: 30px;
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: top;
 }
@@ -48,8 +47,7 @@ body {
 .row-fluid .span2,
 .row-fluid .span1 {
 	margin-left: 2.127659574%;
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: top;
 }
@@ -111,8 +109,7 @@ body {
 }
 
 .nav li a {
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: middle;
 }
@@ -142,7 +139,7 @@ body {
 
 .nav-list .active a,
 .nav-list .active a:hover {
-	color: #ffffff;
+	color: #fff;
 	background-color: #0088cc;
 }
 
@@ -291,8 +288,7 @@ body {
 
 .nav-tabs li,
 .nav-pills li {
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: top;
 }
@@ -342,13 +338,13 @@ body {
 
 .nav-pills .active a,
 .nav-pills .active a:hover {
-	color: #ffffff;
+	color: #fff;
 	background-color: #0088cc;
 }
 
 .navbar a:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #fff;
 }
 
 .navbar-form input {
@@ -375,14 +371,14 @@ body {
 }
 
 .navbar .nav li a:hover {
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 	background-color: transparent;
 }
 
 .navbar .nav .active a,
 .navbar .nav .active a:hover {
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 	background-color: #222222;
 }
@@ -429,9 +425,9 @@ body {
 }
 
 .btn-group .dropdown-toggle {
-	*padding-top: 4px;
+	padding-top: 4px;
 	padding-right: 8px;
-	*padding-bottom: 4px;
+	padding-bottom: 4px;
 	padding-left: 8px;
 }
 
@@ -443,7 +439,7 @@ body {
 .dropdown-menu li a:hover,
 .dropdown-menu .active a,
 .dropdown-menu .active a:hover {
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 	background-color: #0088cc;
 }
@@ -462,7 +458,7 @@ input {
 	height: auto;
 	padding: 0;
 	margin: 3px 0;
-	*margin-top: 0;
+	margin-top: 0;
 	border: 0;
 }
 
@@ -482,8 +478,7 @@ select {
 .input-large,
 .input-xlarge,
 .input-xxlarge {
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: middle;
 	line-height: 18px;
@@ -518,8 +513,7 @@ input.span2,
 textarea.span2,
 input.span1,
 textarea.span1 {
-	display: inline-block;
-	*display: inline;
+	display: inline;
 	zoom: 1;
 	vertical-align: top;
 	line-height: 18px;
@@ -538,7 +532,7 @@ textarea.span1 {
 
 .thumbnail img {
 	display: block;
-	_width: auto;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -683,12 +677,11 @@ textarea.span1 {
 .icon-filter,
 .icon-briefcase,
 .icon-fullscreen {
-	display: inline-block;
+	display: inline;
 	zoom: 1;
-	*display: inline;
 	width: 14px;
 	height: 14px;
-	*margin-right: .3em;
+	margin-right: .3em;
 	line-height: 14px;
 	vertical-align: text-top;
 	background-image: url("../img/glyphicons-halflings.png");

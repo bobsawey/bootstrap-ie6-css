@@ -39,7 +39,7 @@
 .show-grid .span1 {
 	background-color: #eee;
 	text-align: center;
-	_height: 30px;
+	height: 30px;
 	line-height: 30px;
 }
 
@@ -68,18 +68,4 @@
 .docs-input-sizes input {
 	display: block;
 	margin-bottom: 9px;
-}
-
-.example-sites li {
-	float: none;
-	display: inline-block;
-	*display: inline;
-	zoom: 1;
-	vertical-align: middle;
-	_width: 220px;
-	margin: 0 auto 18px;
-	text-align: center;
-}
-.example-sites .thumbnail img {
-	_width: 210px;
 }
