@@ -8,8 +8,8 @@ Twitter Bootstrap shim for IE6.
 
 ```html
 <!--[if IE 6]>
-<link href="assets/css/bootstrap-ie6.css" rel="stylesheet">
-<script src="assets/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<link href="bootstrap-ie6.css" rel="stylesheet">
+<script src="DD_belatedPNG_0.0.8a-min.js"></script>
 <script>
 	$(function() {
 		$('[class^="icon-"]').each(function() {
