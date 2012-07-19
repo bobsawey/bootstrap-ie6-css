@@ -405,7 +405,6 @@ body {
 	zoom: 1;
 	height: 4px;
 	overflow: hidden;
-	color: #f5f5f5;
 	margin-top: 5px;
 }
 
@@ -416,7 +415,27 @@ body {
 }
 
 a.btn-primary:hover {
-	background-color: #0074cc;
+	background-color: #0055cc;
+}
+
+a.btn-warning:hover {
+	background-color: #df8505;
+}
+
+a.btn-danger:hover {
+	background-color: #a9302a;
+}
+
+a.btn-success:hover {
+	background-color: #499249;
+}
+
+a.btn-info:hover {
+	background-color: #2a85a0;
+}
+
+a.btn-inverse:hover {
+	background-color: #151515;
 }
 
 .btn-group .btn {
@@ -439,17 +458,6 @@ a.btn-primary:hover {
 	padding-right: 8px;
 	padding-bottom: 4px;
 	padding-left: 8px;
-}
-
-a.dropdown-toggle {
-	background-color: #f5f5f5;
-}
-
-a.dropdown-toggle:hover,
-a.dropdown-toggle:active,
-a.dropdown-toggle:visited {
-	color: #333;
-	background-color: #f5f5f5;
 }
 
 .dropdown-menu {
@@ -717,4 +725,8 @@ textarea.span1 {
 	vertical-align: text-top;
 	background-image: url("../img/glyphicons-halflings.png");
 	background-repeat: no-repeat;
+}
+
+.icon-white {
+	background-image: url("../img/glyphicons-halflings-white.png");
 }
